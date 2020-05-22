@@ -30,9 +30,9 @@ module.exports = {
           children: ['/vuepress/']
         },         
         {
-          title: 'node server',
+          title: 'nodejs',
           collapsable: true,
-          children: ['/nodeServer/express', '/nodeServer/koa', '/nodeServer/http']
+          children: ['/nodejs/express', '/nodejs/koa', '/nodejs/http']
         },      
         {
           title: 'git',
