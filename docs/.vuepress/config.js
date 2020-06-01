@@ -32,7 +32,7 @@ module.exports = {
         {
           title: 'nodejs',
           collapsable: true,
-          children: ['/nodejs/express', '/nodejs/koa', '/nodejs/http']
+          children: ['/nodejs/express', '/nodejs/koa', '/nodejs/http', '/nodejs/base']
         },      
         {
           title: 'git',
@@ -42,7 +42,7 @@ module.exports = {
         {
           title: 'vue',
           collapsable: true,
-          children: ['/vue/vue.md', '/vue/plugins.md', '/vue/fileUpload.md', '/vue/VFD.md']
+          children: ['/vue/vue.md', '/vue/plugins.md', '/vue/fileUpload.md', '/vue/VFD.md', '/vue/vue-router.md']
         },         
         {
           title: 'trash',
@@ -83,6 +83,11 @@ module.exports = {
           title: 'terminal',
           collapsable: true,
           children: ['/terminal/macos',]
+        },                        
+        {
+          title: 'DataBase',
+          collapsable: true,
+          children: ['/DataBase/mongodb',]
         },                        
       ]
     }
