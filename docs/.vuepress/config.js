@@ -13,7 +13,17 @@ module.exports = {
         { text: 'External', link: 'https://www.baidu.com' },
       ],
       sidebarDepth: 2,
-      sidebar: [
+      sidebar: [                      
+        {
+          title: 'CSS',
+          collapsable: true,
+          children: ['/css/base',]
+        },            
+        {
+          title: 'js系列',
+          collapsable: true,
+          children: ['/jsSeries/jsbase', '/jsSeries/professionalWords', '/jsSeries/ts']
+        },  
         {
           title: 'tools',
           collapsable: true,
@@ -68,12 +78,7 @@ module.exports = {
           title: '工具函数',
           collapsable: true,
           children: ['/utilsFunction/base',]
-        },                
-        {
-          title: 'js基础',
-          collapsable: true,
-          children: ['/jsBase/base', '/jsBase/professionalWords',]
-        },  
+        },     
         {
           title: 'jsUtils',
           collapsable: true,
