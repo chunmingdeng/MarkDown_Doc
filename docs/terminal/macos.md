@@ -1,6 +1,8 @@
 # macos terminal
-* mkdir \<fileName\> \#创建directory
-* sudo rm -r -f \<fileName\> \#删除directory
+- mkdir \<fileName\> \#创建directory
+- sudo rm -r -f \<fileName\> \#删除directory
+- `cat <file>` # 查看文件
+- `grep` [link](https://www.jianshu.com/p/ca88e6ef504d)
 
 ### 进程
 - `sudo lsof -i :<port>` \# 查看当前端口的进程
@@ -43,8 +45,6 @@
 - -au 显示较详细的资讯
 - -aux 显示所有包含其他使用者的行程 
 
-### grep
-[link](https://www.jianshu.com/p/ca88e6ef504d)
 
 
 ### nohup
