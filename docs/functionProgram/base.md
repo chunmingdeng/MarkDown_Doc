@@ -18,7 +18,18 @@ const curry = (fn, ...args) =>
     ? fn(...args)
     : (..._args) => curry(fn, ...args, ..._args)
 const add = (a,b,c,d) => a+b+c+d;
-curry(add)
+let c00 = curry(add)
+c00(1,2,3,4)
+
+
+let curry = (fn, ...args) => {
+    return args.length >= fn.length ?
+    fn(...args) : 
+    (..._args) => curry.bind(null, fn, ..._args)
+} 
+let c01 = curry(add)
+c01(1,2,3,4)() // 这里因为使用的是bind函数，所以需要再额外调用一次
+
 ```
 ## 工具函数
 - <b>unary</b> # 无论传入多少个参数，只使用传入参数的第一个
@@ -87,7 +98,7 @@ curry(add)
   }
   ```
 
-- <b>compose</b> # 组合
+- <b>compose</b> # 组合，满足结合律
   ```js
   const compose = (...fns) => 
     (value) => 
@@ -99,4 +110,21 @@ curry(add)
   const pipe = (...fns) => 
     (value) => 
       reduce(fns, (acc, fn) => fn(acc), value);
+  ```
+
+- **Functor** # 函子
+  ```js
+  // MayBe函子
+  const MayBe = function(val) {
+    return {value: val};
+  }
+  MayBe.of = function() {
+    return new MayBe();
+  }
+  MayBe.prototype.isNothing = function() {
+    return (this.value == null || this.value == undefined);
+  }
+  MayBe.prototype.map = function(fn) {
+    return this.isNothing() ? MayBe.of(null) : MayBe.of(fn(this.value));
+  }
   ```

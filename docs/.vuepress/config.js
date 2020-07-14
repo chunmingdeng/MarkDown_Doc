@@ -18,22 +18,29 @@ module.exports = {
           title: 'CSS',
           collapsable: true,
           children: ['/css/base',]
-        },            
+        },   
+        {
+          title: 'electron',
+          collapsable: true,
+          children: ['/electron/']
+        },         
         {
           title: 'js系列',
           collapsable: true,
-          children: ['/jsSeries/jsbase', '/jsSeries/professionalWords', '/jsSeries/ts']
+          children: ['/jsSeries/jsbase', '/jsSeries/professionalWords', '/jsSeries/ts', '/jsSeries/jsDesignMode']
         },  
+        {
+          title: 'operating system（操作系统）',
+          collapsable: true,
+          children: [
+            '/operatingSysten/base'
+          ]
+        },
         {
           title: 'tools',
           collapsable: true,
           children: ['/tools/nginx',]
         },       
-        {
-          title: 'electron',
-          collapsable: true,
-          children: ['/electron/']
-        },
         {
           title: 'vuepress',
           collapsable: true,

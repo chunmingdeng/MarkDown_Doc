@@ -81,6 +81,13 @@
 ## node
 > 这里的节点可以自己在页面中创建，可以是任意的样式，本doc中使用<i>**nodeList**</i>表示节点集合，<i>**node**</i>表示单个节点
 
+## link(conn) 连接
+```js
+conn是jsplumb返回的连线实体
+conn.getPaintStyle(); // 获取连线的样式
+conn.setPaintStyle({stroke: '', strokeWidth: 2}); // 修改连线的样式
+conn.repaint()
+```
 
 ## endPoint
 - endPoint 是用来作为链接的source或者target；
@@ -493,7 +500,23 @@ export default {
                         {
                             width: 10,
                             length: 10,
-                            location: 1
+                            location: 1,
+                        }
+                    ],
+                    [
+                        'Label',
+                        {
+                            cssClass:"component",
+                            label :"hello everyone",
+                            // label :"<div class='DCon'>啊啊啊<div>",
+                            location:0.4,
+                            id:"label",
+                            events: {
+                                click: function() {
+                                    console.log(9999)
+                                },
+                                mouseenter: function() {}
+                            }
                         }
                     ]
                 ],
@@ -1052,3 +1075,61 @@ svg.jtk-connector:hover {
 </style>
 
 ```
+
+
+## Docs
+
+> overlays
+
+- Arrow     
+Draws an arrow, using four points: the head and two tail points, and a foldback point, which permits the tail of the arrow to be indented. Available constructor arguments for this Overlay are:
+width - width of the tail of the arrow
+length - distance from the tail of the arrow to the head
+location - where, either as a proportional value from 0 to 1 inclusive, or as an absolute value (negative values mean distance from target; positive values greater than 1 mean distance from source) the Arrow should appear on the Connector
+direction - which way to point. Allowed values are 1 (the default, meaning forwards) and -1, meaning backwards
+foldback - how far along the axis of the arrow the tail points foldback in to. Default is 0.623.
+paintStyle - a style object in the form used for paintStyle values for Endpoints and Connectors.
+
+- Plain Arrow   
+This is just a specialized instance of Arrow in which jsPlumb hardcodes foldback to 1, meaning the tail of the Arrow is a flat edge. All of the constructor parameters from Arrow apply for PlainArrow.
+
+- Diamond   
+This is a specialized instance of Arrow in which jsPlumb hardcodes 'foldback' to 2, meaning the Arrow turns into a Diamond. All of the constructor parameters from Arrow apply for Diamond.
+
+- Label 
+Provides a text label to decorate Connectors with. The available constructor arguments are:
+label - The text to display. You can provide a function here instead of plain text: it is passed the Connection as an argument, and it should return a String.
+cssClass - Optional css class to use for the Label. This is now preferred over using the labelStyle parameter.
+labelStyle - Optional arguments for the label's appearance. Valid entries in this JS object are:
+font - a font string in a format suitable for the Canvas element
+fill - the color to fill the label's background with. Optional.
+color - the color of the label's text. Optional.
+padding - optional padding for the label. This is expressed as a proportion of the width of the label, not in pixels or ems.
+borderWidth - optional width in pixels for the label's border. Defaults to 0.
+borderStyle - optional. The color to paint the border, if there is one.
+location - As for Arrow Overlay. Where, either proportionally from 0 to 1 inclusive, or as an absolute offset from either source or target, the label should appear.
+See also the Labels page, which has a more thorough discussion of how to work with labels in the Toolkit edition.
+
+- Custom    
+The Custom Overlay allows you to create your own Overlays, which jsPlumb will position for you. You need to implement one method - create(component) - which is passed the component on which the Overlay is located as an argument, and which returns either a DOM element or a valid selector from the underlying library:
+```js
+var conn = jsPlumb.connect({
+  source:"d1",
+  target:"d2",
+  paintStyle:{
+    stroke:"red",
+    strokeWidth:3
+  },
+  overlays:[
+    ["Custom", {
+      create:function(component) {
+        return $("<select id='myDropDown'><option value='foo'>foo</option><option value='bar'>bar</option></select>");                
+      },
+      location:0.7,
+      id:"customOverlay"
+    }]
+  ]
+});
+```
+Here we have created a select box with a couple of values, assigned to it the id of 'customOverlay' and placed it at location 0.7. Note that the 'id' we assigned is distinct from the element's id. You can use the id you provided to later retrieve this Overlay using the getOverlay(id) method on a Connection or an Endpoint.
+

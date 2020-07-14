@@ -74,7 +74,25 @@
     }
 ```
 
-## 4.bind [link](https://www.webhek.com/post/javascript-bind.html)
+## 4.bind 
+> [link](https://www.webhek.com/post/javascript-bind.html)     
+  bind返回的值是一个函数，并不会直接调用函数 
+
 `fun.bind(thisArg[, arg1[, arg2[, ...]]])`
 - thisArg 当绑定函数被调用时，该参数会作为原函数运行时的 this 指向。当使用 new 操作符调用绑定函数时，该参数无效。
 - arg1, arg2, … （可选）当绑定函数被调用时，这些参数加上绑定函数本身的参数会按照顺序作为原函数运行时的参数。
+```js
+// 利用apply实现原生浏览器的bind函数（低端浏览器不支持时候的hack）
+Function.prototype.my_bind = function(context) {
+    var fn = this;
+    return function() {
+        fn.apply(context, arguments);
+    }
+}
+// 另外的实现
+function bind(fn, context) {
+    return function() {
+        fn.apply(context, arguments);
+    }
+}
+```
