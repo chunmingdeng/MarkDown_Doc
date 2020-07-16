@@ -96,3 +96,74 @@ function bind(fn, context) {
     }
 }
 ```
+
+## 奇奇怪怪的函数
+- 利用`a.b.c.e`创建嵌套对象
+    ```js
+    function createObj(str) {
+        var o = p = g = {};
+        var parts = str.split('.');
+        for (var i = 0; i<parts.length; i++) {
+            if(!p[parts[i]]) {
+                p[parts[i]] = {} // 第一次这里的地址引用实际是g，所以修改的是g
+            }
+            old = p;
+            p = p[parts[i]]
+        }
+        return g;
+    }
+    ```
+- 利用上面的函数原理创建模块定义函数（JS设计模式中的同步模块模式）[javaScript设计模式p256]()
+```js
+var F = F || {};
+F.define = function(str, fn) {
+    var o = p = this;
+    var parts = str.split('.');
+    var i = 0;
+    for(; i< parts.length; i++) {
+        if(!p[parts[i]]) {
+            p[parts[i]] = {};
+        }
+        o = p;
+        p = p[parts[i]];
+    }
+    if(fn) 
+        o[parts[--i]] = fn();
+    return this;
+}
+// 定义模块/注册模块
+// F.define('a.b.c.d.e', function() {
+//     return function(){
+//         console.log(9999)
+//     }
+// })
+```
+- 模块的调用[javaScript设计模式p258]()
+```js
+F.module = function() {
+    var args = [].slice.call(arguments),
+        fn = args.pop(),
+        parts = args,
+        pl = parts.length,
+        i = 0,
+        p, ms = [];
+    while(i < pl){
+        if(parts[i].constructor == String){
+            var modules = parts[i].split('.');
+            p = this;
+            for(var j = 0; j< modules.length; j++){
+                p = p[modules[j]] || false;
+            }
+            ms.push(p)
+        } else {
+
+        }
+        i++;
+    }
+    fn.apply(null, ms);
+}
+// 调用模块
+// F.module('a.b.c.d.e', function(e) {
+//     e()
+// })
+```

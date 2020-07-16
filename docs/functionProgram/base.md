@@ -82,7 +82,8 @@ c01(1,2,3,4)() // 这里因为使用的是bind函数，所以需要再额外调�
       return [acc];
     }
   ```
-- <b>partial（偏函数）</b> # 允许开发者部分的应用函数的参数
+- <b>partial（偏函数）</b> # 允许开发者部分的应用函数的参数 [p96]()
+> 本质是在第一次调用便函数的时候将fn所需的参数一次性传入，不想传的参数用undefined占位，返回的函数需要传入大于等于占位所需要的参数个数，大于的绘自动舍弃
   ```js
   const partial = (fn, ...partialArgs) => {
     let args = partialArgs;
@@ -99,10 +100,11 @@ c01(1,2,3,4)() // 这里因为使用的是bind函数，所以需要再额外调�
   ```
 
 - <b>compose</b> # 组合，满足结合律
+> 只有当函数接收一个参数的时候才可以使用compose函数
   ```js
   const compose = (...fns) => 
     (value) => 
-      reduce(fn.reserve(), (acc, fn) => fn(acc), value);
+      reduce(fns.reserve(), (acc, fn) => fn(acc), value);
   ```
 
 - <b>pipe</b> # 管道
