@@ -70,21 +70,6 @@ module.exports = {
           title: 'echarts',
           collapsable: true,
           children: ['/echarts/options','/echarts/base',]
-        },        
-        {
-          title: '函数式编程',
-          collapsable: true,
-          children: ['/functionProgram/base',]
-        },                
-        {
-          title: '代码规范',
-          collapsable: true,
-          children: ['/programStyle/eslint', '/programStyle/rules', '/programStyle/mock',]
-        },                
-        {
-          title: '工具函数',
-          collapsable: true,
-          children: ['/utilsFunction/base',]
         },     
         {
           title: 'jsUtils',
@@ -100,7 +85,27 @@ module.exports = {
           title: 'DataBase',
           collapsable: true,
           children: ['/DataBase/mongodb',]
-        },                        
+        },      
+        {
+          title: '函数式编程',
+          collapsable: true,
+          children: ['/functionProgram/base',]
+        },                
+        {
+          title: '代码规范',
+          collapsable: true,
+          children: ['/programStyle/eslint', '/programStyle/rules', '/programStyle/mock',]
+        },                
+        {
+          title: '工具函数',
+          collapsable: true,
+          children: ['/utilsFunction/base',]
+        },                            
+        {
+          title: '数学',
+          collapsable: true,
+          children: ['/math/base',]
+        },                   
       ]
     }
 }
