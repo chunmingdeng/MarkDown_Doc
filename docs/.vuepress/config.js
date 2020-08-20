@@ -27,13 +27,14 @@ module.exports = {
         {
           title: 'js系列',
           collapsable: true,
-          children: ['/jsSeries/jsbase', '/jsSeries/professionalWords', '/jsSeries/ts', '/jsSeries/jsDesignMode']
+          children: ['/jsSeries/jsbase', '/jsSeries/professionalWords', '/jsSeries/ts', '/jsSeries/jsDesignMode', '/jsSeries/usualFunction']
         },  
         {
           title: 'operating system（操作系统）',
           collapsable: true,
           children: [
-            '/operatingSysten/base'
+            '/operatingSysten/base',
+            '/operatingSysten/linux',
           ]
         },
         {
@@ -74,7 +75,10 @@ module.exports = {
         {
           title: 'jsUtils',
           collapsable: true,
-          children: ['/jsUtils/jsPlumb',]
+          children: [
+            '/jsUtils/jsPlumb',
+            '/jsUtils/pixijs',
+          ]
         },    
         {
           title: 'terminal',

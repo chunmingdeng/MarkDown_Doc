@@ -1,0 +1,165 @@
+
+> @ dev /Users/chunmingdeng/personalProject/MarkDown_Doc
+> vuepress dev docs
+
+wait Extracting site metadata...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+ℹ Compiling Client
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/chunmingdeng/personalProject/MarkDown_Doc/docs/.vuepress/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+✔ Client: Compiled successfully in 5.85s
+csuccess [08:54:17] Build cf7503 finished in 5848 ms! 
+> VuePress dev server listening at http://localhost:8080/
+
+> @ dev /Users/chunmingdeng/personalProject/MarkDown_Doc
+> vuepress dev docs
+
+wait Extracting site metadata...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+ℹ Compiling Client
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/chunmingdeng/personalProject/MarkDown_Doc/docs/.vuepress/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+✔ Client: Compiled successfully in 6.19s
+csuccess [08:55:28] Build 986278 finished in 6194 ms! 
+> VuePress dev server listening at http://localhost:8080/
+c✔ Client: Compiled successfully in 6.19s (repeated 0 times)
+✔ Client: Compiled successfully in 212.86ms
+csuccess [08:55:28] Build 2f58f6 finished in 214 ms! ( http://localhost:8080/ )
+
+> @ dev /Users/chunmingdeng/personalProject/MarkDown_Doc
+> vuepress dev docs
+
+wait Extracting site metadata...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+ℹ Compiling Client
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/chunmingdeng/personalProject/MarkDown_Doc/docs/.vuepress/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+Browserslist: caniuse-lite is outdated. Please run the following command: `npm update`
+✔ Client: Compiled successfully in 9.97s
+csuccess [11:39:45] Build 8a4f9b finished in 9975 ms! 
+> VuePress dev server listening at http://localhost:8080/
+cℹ Compiling Client
+✔ Client: Compiled successfully in 7.07s
+csuccess [15:58:23] Build a6ecbf finished in 7072 ms! ( http://localhost:8080/ )
+
+> @ dev /Users/chunmingdeng/personalProject/MarkDown_Doc
+> vuepress dev docs
+
+wait Extracting site metadata...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+ℹ Compiling Client
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/chunmingdeng/personalProject/MarkDown_Doc/docs/.vuepress/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+Browserslist: caniuse-lite is outdated. Please run the following command: `npm update`
+✔ Client: Compiled successfully in 8.31s
+csuccess [20:09:46] Build 14679a finished in 8310 ms! 
+> VuePress dev server listening at http://localhost:8080/
+cℹ Compiling Client
+✔ Client: Compiled successfully in 466.31ms
+csuccess [20:10:14] Build 71547f finished in 467 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 288.71ms
+csuccess [20:12:02] Build be53b5 finished in 290 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 333.17ms
+csuccess [20:12:26] Build f79fe1 finished in 334 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 234.24ms
+csuccess [20:12:35] Build 4d6976 finished in 235 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 367.01ms
+csuccess [20:12:48] Build 3435ca finished in 368 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 209.11ms
+csuccess [20:12:52] Build a54a7f finished in 210 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 256.77ms
+csuccess [20:13:15] Build b3c224 finished in 260 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 215.04ms
+csuccess [20:13:26] Build 51b498 finished in 216 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 285.04ms
+csuccess [20:13:29] Build 1f9578 finished in 285 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 243.88ms
+csuccess [20:14:14] Build cc5da6 finished in 244 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 232.27ms
+csuccess [20:15:10] Build 6f050b finished in 232 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 399.50ms
+csuccess [20:15:13] Build 35370b finished in 401 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 256.62ms
+csuccess [20:15:39] Build 59cbc4 finished in 257 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 225.10ms
+csuccess [20:15:43] Build 78f918 finished in 225 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 170.23ms
+csuccess [20:15:52] Build b2a580 finished in 171 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 371.21ms
+csuccess [20:16:12] Build 4ffc5f finished in 372 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 288.86ms
+csuccess [20:17:46] Build 2e00bc finished in 290 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 287.66ms
+csuccess [20:18:12] Build d28e77 finished in 288 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 371.47ms
+csuccess [20:18:40] Build ee076e finished in 373 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 318.79ms
+csuccess [20:19:07] Build 7499ae finished in 319 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 508.09ms
+csuccess [20:19:50] Build cb3395 finished in 509 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 417.17ms
+csuccess [20:20:38] Build cf3cd0 finished in 418 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 328.15ms
+csuccess [20:20:49] Build 35c428 finished in 329 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 390.06ms
+csuccess [20:21:22] Build b67c12 finished in 391 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 397.31ms
+csuccess [20:23:33] Build f1233f finished in 399 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 280.08ms
+csuccess [20:23:39] Build 4ef15f finished in 281 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 381.34ms
+csuccess [20:25:24] Build d051ee finished in 383 ms! ( http://localhost:8080/ )
