@@ -27,7 +27,14 @@ module.exports = {
         {
           title: 'js系列',
           collapsable: true,
-          children: ['/jsSeries/jsbase', '/jsSeries/professionalWords', '/jsSeries/ts', '/jsSeries/jsDesignMode', '/jsSeries/usualFunction']
+          children: [
+            '/jsSeries/jsbase', 
+            '/jsSeries/professionalWords', 
+            '/jsSeries/ts', 
+            '/jsSeries/jsDesignMode', 
+            '/jsSeries/usualFunction',
+            '/jsSeries/js&browser',
+          ]
         },  
         {
           title: 'operating system（操作系统）',

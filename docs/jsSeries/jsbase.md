@@ -167,3 +167,19 @@ F.module = function() {
 //     e()
 // })
 ```
+
+## 框架实现theme切换
+- 实现一 [elementUI实现方式]()  
+项目仓库在这：[link](https://github.com/ElementUI/theme-preview)实现其实很暴力：
+先把默认主题文件中涉及到颜色的 CSS 值替换成关键词：[link](https://github.com/ElementUI/theme-preview/blob/master/src/app.vue#L250-L274)     
+根据用户选择的主题色生成一系列对应的颜色值：[link](https://github.com/ElementUI/theme-preview/blob/master/src/utils/formula.json)   
+把关键词再换回刚刚生成的相应的颜色值：[link](https://github.com/ElementUI/theme-preview/blob/master/src/utils/color.js)   
+直接在页面上加 style 标签，把生成的样式填进去：[link](https://github.com/ElementUI/theme-preview/blob/master/src/app.vue#L198-L211)
+- 实现二[antd实现方式](https://github.com/jyzwf/blog/issues/70)
+> another article: [atricle1](https://github.com/1019483075/lingxi/issues/26)
+
+## webpack
+[link](https://github.com/1019483075/lingxi#Vue%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84%E7%B3%BB%E5%88%97)
+- webpack的publicPath[link](urlhttps://www.cnblogs.com/SamWeb/p/8353367.html)
+    - publicPath在webpack-dev-server的时候指定的是打进RAM的文件的位置
+    - publicPath在npm run build的时候是所有的url文件的前缀
