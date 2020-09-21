@@ -34,6 +34,7 @@ module.exports = {
             '/jsSeries/jsDesignMode', 
             '/jsSeries/usualFunction',
             '/jsSeries/js&browser',
+            '/jsSeries/p&s',
           ]
         },  
         {
@@ -116,6 +117,11 @@ module.exports = {
           title: '数学',
           collapsable: true,
           children: ['/math/base',]
+        },                   
+        {
+          title: '正则',
+          collapsable: true,
+          children: ['/reg/base',]
         },                   
       ]
     }

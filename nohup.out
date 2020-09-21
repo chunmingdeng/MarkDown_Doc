@@ -336,3 +336,604 @@ tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
 cℹ Compiling Client
 ✔ Client: Compiled successfully in 1.42s
 csuccess [18:45:31] Build 5e8654 finished in 1418 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 1.31s
+csuccess [11:14:12] Build 5534bf finished in 1342 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+Reload due to frontmatter jsSeries/ts.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled successfully in 376.88ms
+csuccess [11:15:58] Build 3b661a finished in 378 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 760.85ms
+csuccess [11:15:59] Build 04f970 finished in 762 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 248.72ms
+csuccess [11:16:29] Build 76cd00 finished in 250 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 273.88ms
+csuccess [11:16:50] Build dc3393 finished in 276 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 224.70ms
+csuccess [11:16:51] Build bbaad5 finished in 226 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 382.81ms
+csuccess [11:33:23] Build f1c5d3 finished in 390 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+Reload due to frontmatter jsSeries/ts.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled successfully in 274.83ms
+csuccess [11:34:38] Build 1c0755 finished in 276 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 921.27ms
+csuccess [11:34:39] Build cead14 finished in 922 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 198.91ms
+csuccess [11:38:24] Build aca705 finished in 200 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 394.68ms
+csuccess [11:38:48] Build 2e1030 finished in 395 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 178.54ms
+csuccess [11:38:53] Build a21885 finished in 181 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 392.75ms
+csuccess [11:39:11] Build 34e28a finished in 395 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 301.92ms
+csuccess [11:39:29] Build 3e9804 finished in 303 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 303.31ms
+csuccess [11:39:35] Build 898833 finished in 304 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 263.00ms
+csuccess [11:39:59] Build 96aac7 finished in 264 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 428.42ms
+csuccess [11:40:20] Build 1984a0 finished in 429 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+Reload due to frontmatter jsSeries/ts.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled successfully in 339.02ms
+csuccess [11:41:35] Build 25a5fd finished in 340 ms! ( http://localhost:8080/ )
+cℹ Compiling Client
+✔ Client: Compiled successfully in 645.80ms
+csuccess [11:41:37] Build 83d967 finished in 646 ms! ( http://localhost:8080/ )
+
+> @ dev /Users/chunmingdeng/personalProject/MarkDown_Doc
+> vuepress dev docs
+
+wait Extracting site metadata...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+cℹ Compiling Client
+✔ Client: Compiled successfully in 680.96ms
+csuccess [11:41:57] Build 746656 finished in 682 ms! ( http://localhost:8080/ )
+ℹ Compiling Client
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8082/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /Users/chunmingdeng/personalProject/MarkDown_Doc/docs/.vuepress/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+Browserslist: caniuse-lite is outdated. Please run the following command: `npm update`
+✔ Client: Compiled successfully in 9.35s
+csuccess [11:42:06] Build 2a50da finished in 9348 ms! 
+> VuePress dev server listening at http://localhost:8082/
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 478.96ms
+csuccess [11:44:05] Build 9d4190 finished in 484 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 600.44ms
+csuccess [11:44:05] Build 50e40b finished in 602 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 469.80ms
+csuccess [11:45:09] Build 0505a1 finished in 471 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 574.33ms
+csuccess [11:45:09] Build 36ce24 finished in 575 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 820.33ms
+csuccess [11:47:10] Build 4718f8 finished in 823 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 914.46ms
+csuccess [11:47:10] Build 702c9d finished in 915 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 454.09ms
+csuccess [11:47:39] Build ef9060 finished in 456 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 467.30ms
+csuccess [11:47:39] Build 28eed9 finished in 469 ms! ( http://localhost:8080/ )
+Reload due to add jsSeries/p&s.md
+Reload due to add jsSeries/p&s.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+ctip Apply theme @vuepress/theme-default ...
+ℹ Compiling Client
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled with some errors in 1.85s
+csuccess [16:36:37] Build 7155cc finished in 1920 ms! ( http://localhost:8080/ )
+ℹ Compiling Client
+✔ Client: Compiled with some errors in 1.26s
+csuccess [16:36:39] Build b77bff finished in 1310 ms! ( http://localhost:8082/ )
+cℹ Compiling Client
+cℹ Compiling Client
+✔ Client: Compiled successfully in 5.34s
+csuccess [16:36:46] Build 8d21e2 finished in 5338 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 8.21s
+csuccess [16:36:48] Build 7d3c14 finished in 8211 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+Reload due to frontmatter jsSeries/p&s.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled successfully in 308.28ms
+csuccess [16:36:59] Build 4bd784 finished in 314 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 509.68ms
+csuccess [16:36:59] Build 56fc7c finished in 513 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 810.42ms
+csuccess [16:37:00] Build f56035 finished in 811 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 1.21s
+csuccess [16:37:00] Build d128db finished in 1208 ms! ( http://localhost:8080/ )
+Reload due to change .vuepress/config.js
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+Reload due to change .vuepress/config.js
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+(node:91728) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, open '/Users/chunmingdeng/personalProject/MarkDown_Doc/node_modules/@vuepress/core/.temp/internal/page-components.js'
+(node:91728) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:91728) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+cReload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+ctip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+Reload due to change .vuepress/config.js
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+Reload due to change .vuepress/config.js
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+(node:91728) UnhandledPromiseRejectionWarning: Error: EEXIST: file already exists, mkdir '/Users/chunmingdeng/personalProject/MarkDown_Doc/node_modules/@vuepress/core/.temp/app-enhancers'
+(node:91728) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+Reload due to change .vuepress/config.js
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+ℹ Compiling Client
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+(node:91728) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, open '/Users/chunmingdeng/personalProject/MarkDown_Doc/node_modules/@vuepress/core/.temp/internal/layout-components.js'
+(node:91728) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+Reload due to change .vuepress/config.js
+tip Apply theme @vuepress/theme-default ...
+(node:91728) UnhandledPromiseRejectionWarning: Error: EEXIST: file already exists, mkdir '/Users/chunmingdeng/personalProject/MarkDown_Doc/node_modules/@vuepress/core/.temp/internal'
+(node:91728) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+warning Override existing page /DataBase/mongodb.html.
+warning Override existing page /css/base.html.
+warning Override existing page /echarts/base.html.
+warning Override existing page /echarts/options.html.
+warning Override existing page /electron/.
+warning Override existing page /functionProgram/base.html.
+warning Override existing page /git/.
+warning Override existing page /git/summary.html.
+warning Override existing page /jsSeries/U_dont_konw_js/00__Foreword.html.
+warning Override existing page /jsSeries/U_dont_konw_js/00__Preface.html.
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+warning Override existing page /jsSeries/U_dont_konw_js/01__Into_Programming.html.
+warning Override existing page /jsSeries/U_dont_konw_js/02__Into_JavaScript.html.
+warning Override existing page /jsSeries/U_dont_konw_js/03__Into_YDKJS.html.
+warning Override existing page /jsSeries/U_dont_konw_js/A1__Acknowledgments.html.
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+warning Override existing page /jsSeries/U_dont_konw_js/.
+warning Override existing page /jsSeries/js&browser.html.
+warning Override existing page /jsSeries/jsDesignMode.html.
+warning Override existing page /jsSeries/jsbase.html.
+warning Override existing page /jsSeries/p&s.html.
+warning Override existing page /jsSeries/professionalWords.html.
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+warning Override existing page /jsSeries/ts.html.
+warning Override existing page /jsSeries/usualFunction.html.
+warning Override existing page /jsUtils/jsPlumb.html.
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+warning Override existing page /jsUtils/pixijs.html.
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+warning Override existing page /math/base.html.
+warning Override existing page /nodejs/base.html.
+warning Override existing page /nodejs/express.html.
+warning Override existing page /nodejs/http.html.
+warning Override existing page /nodejs/koa.html.
+warning Override existing page /operatingSysten/base.html.
+warning Override existing page /operatingSysten/linux.html.
+warning Override existing page /programStyle/eslint.html.
+warning Override existing page /programStyle/mock.html.
+warning Override existing page /programStyle/rules.html.
+warning Override existing page /.
+warning Override existing page /terminal/macos.html.
+warning Override existing page /tools/nginx.html.
+warning Override existing page /trash/.
+warning Override existing page /utilsFunction/base.html.
+warning Override existing page /vue/VFD.html.
+warning Override existing page /vue/fileUpload.html.
+warning Override existing page /vue/plugins.html.
+warning Override existing page /vue/vue-router.html.
+warning Override existing page /vue/vue.html.
+warning Override existing page /vuepress/.
+✔ Client: Compiled with some errors in 265.63ms
+csuccess [16:37:18] Build b6ac29 finished in 267 ms! ( http://localhost:8080/ )
+cwarning Override existing page /DataBase/mongodb.html.
+warning Override existing page /css/base.html.
+warning Override existing page /echarts/base.html.
+warning Override existing page /echarts/options.html.
+warning Override existing page /electron/.
+warning Override existing page /git/.
+warning Override existing page /git/summary.html.
+warning Override existing page /jsSeries/U_dont_konw_js/00__Foreword.html.
+warning Override existing page /jsSeries/U_dont_konw_js/00__Preface.html.
+warning Override existing page /jsSeries/U_dont_konw_js/01__Into_Programming.html.
+warning Override existing page /jsSeries/U_dont_konw_js/03__Into_YDKJS.html.
+warning Override existing page /jsSeries/U_dont_konw_js/02__Into_JavaScript.html.
+warning Override existing page /jsSeries/U_dont_konw_js/A1__Acknowledgments.html.
+warning Override existing page /jsSeries/U_dont_konw_js/.
+warning Override existing page /jsSeries/js&browser.html.
+warning Override existing page /jsSeries/jsDesignMode.html.
+warning Override existing page /jsSeries/jsbase.html.
+warning Override existing page /jsSeries/p&s.html.
+warning Override existing page /jsSeries/professionalWords.html.
+warning Override existing page /jsSeries/ts.html.
+warning Override existing page /functionProgram/base.html.
+warning Override existing page /jsSeries/usualFunction.html.
+warning Override existing page /jsUtils/jsPlumb.html.
+warning Override existing page /jsUtils/pixijs.html.
+warning Override existing page /math/base.html.
+warning Override existing page /nodejs/base.html.
+warning Override existing page /nodejs/express.html.
+warning Override existing page /nodejs/http.html.
+warning Override existing page /nodejs/koa.html.
+warning Override existing page /operatingSysten/base.html.
+warning Override existing page /operatingSysten/linux.html.
+warning Override existing page /programStyle/eslint.html.
+warning Override existing page /programStyle/mock.html.
+warning Override existing page /programStyle/rules.html.
+warning Override existing page /.
+warning Override existing page /terminal/macos.html.
+warning Override existing page /tools/nginx.html.
+warning Override existing page /trash/.
+warning Override existing page /utilsFunction/base.html.
+warning Override existing page /vue/VFD.html.
+warning Override existing page /vue/fileUpload.html.
+warning Override existing page /vue/plugins.html.
+warning Override existing page /vue/vue-router.html.
+warning Override existing page /vue/vue.html.
+warning Override existing page /vuepress/.
+warning Override existing page /DataBase/mongodb.html.
+warning Override existing page /css/base.html.
+warning Override existing page /echarts/base.html.
+warning Override existing page /echarts/options.html.
+warning Override existing page /electron/.
+warning Override existing page /functionProgram/base.html.
+warning Override existing page /git/.
+warning Override existing page /git/summary.html.
+warning Override existing page /jsSeries/U_dont_konw_js/00__Foreword.html.
+warning Override existing page /jsSeries/U_dont_konw_js/00__Preface.html.
+warning Override existing page /jsSeries/U_dont_konw_js/01__Into_Programming.html.
+warning Override existing page /jsSeries/U_dont_konw_js/02__Into_JavaScript.html.
+warning Override existing page /jsSeries/U_dont_konw_js/03__Into_YDKJS.html.
+warning Override existing page /jsSeries/U_dont_konw_js/A1__Acknowledgments.html.
+warning Override existing page /jsSeries/U_dont_konw_js/.
+warning Override existing page /jsSeries/js&browser.html.
+warning Override existing page /jsSeries/jsDesignMode.html.
+warning Override existing page /jsSeries/jsbase.html.
+warning Override existing page /jsSeries/professionalWords.html.
+warning Override existing page /jsSeries/p&s.html.
+warning Override existing page /jsSeries/ts.html.
+warning Override existing page /jsSeries/usualFunction.html.
+warning Override existing page /jsUtils/pixijs.html.
+warning Override existing page /jsUtils/jsPlumb.html.
+warning Override existing page /math/base.html.
+warning Override existing page /nodejs/base.html.
+warning Override existing page /nodejs/express.html.
+warning Override existing page /nodejs/http.html.
+warning Override existing page /nodejs/koa.html.
+warning Override existing page /operatingSysten/base.html.
+warning Override existing page /operatingSysten/linux.html.
+warning Override existing page /programStyle/eslint.html.
+warning Override existing page /programStyle/mock.html.
+warning Override existing page /programStyle/rules.html.
+warning Override existing page /.
+warning Override existing page /terminal/macos.html.
+warning Override existing page /tools/nginx.html.
+warning Override existing page /trash/.
+warning Override existing page /utilsFunction/base.html.
+warning Override existing page /vue/VFD.html.
+warning Override existing page /vue/fileUpload.html.
+warning Override existing page /vue/plugins.html.
+warning Override existing page /vue/vue-router.html.
+warning Override existing page /vue/vue.html.
+warning Override existing page /vuepress/.
+ℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 1.52s
+csuccess [16:37:20] Build 3e135d finished in 1521 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 3.78s
+csuccess [16:37:23] Build 745776 finished in 3781 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+Reload due to frontmatter jsSeries/p&s.md
+Reload due to frontmatter jsSeries/p&s.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled successfully in 301.75ms
+csuccess [16:37:48] Build e9b02d finished in 303 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 333.37ms
+csuccess [16:37:48] Build bd56a5 finished in 334 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 742.25ms
+csuccess [16:37:50] Build 026d27 finished in 747 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 928.87ms
+csuccess [16:37:50] Build aabf4b finished in 931 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 297.69ms
+csuccess [16:38:44] Build a360b9 finished in 300 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 319.51ms
+csuccess [16:38:44] Build a2c395 finished in 321 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+Reload due to frontmatter jsSeries/p&s.md
+tip Apply theme @vuepress/theme-default ...
+Reload due to frontmatter jsSeries/p&s.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled successfully in 393.21ms
+csuccess [16:40:06] Build be9373 finished in 393 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 394.03ms
+csuccess [16:40:06] Build c1f54b finished in 394 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 1.04s
+csuccess [16:40:07] Build efa3da finished in 1043 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 1.07s
+csuccess [16:40:07] Build 727d97 finished in 1067 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 199.71ms
+csuccess [16:40:26] Build 693d99 finished in 201 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 204.76ms
+csuccess [16:40:26] Build db371a finished in 206 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 1.10s
+csuccess [16:47:05] Build af7e2d finished in 1116 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 1.14s
+csuccess [16:47:05] Build 4e6dc3 finished in 1145 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 760.63ms
+csuccess [16:47:51] Build c5756c finished in 761 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 775.31ms
+csuccess [16:47:51] Build 395e3d finished in 776 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 793.43ms
+csuccess [16:48:37] Build c1356a finished in 794 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 793.55ms
+csuccess [16:48:37] Build f440e9 finished in 795 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 720.51ms
+csuccess [16:48:41] Build 509042 finished in 721 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 745.81ms
+csuccess [16:48:41] Build 3f7279 finished in 748 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 473.50ms
+csuccess [16:48:47] Build b9ff4d finished in 474 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 471.71ms
+csuccess [16:48:47] Build c8596a finished in 473 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 512.02ms
+csuccess [16:49:15] Build b3939c finished in 516 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 525.30ms
+csuccess [16:49:15] Build a89dbb finished in 526 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 530.03ms
+csuccess [16:49:22] Build 214151 finished in 531 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 542.51ms
+csuccess [16:49:22] Build a9b7e1 finished in 543 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 457.82ms
+csuccess [16:49:41] Build c81b0d finished in 459 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 611.35ms
+csuccess [16:49:42] Build 5a5e1e finished in 612 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 387.99ms
+csuccess [16:49:54] Build b6894a finished in 389 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 533.95ms
+csuccess [16:49:54] Build 519563 finished in 535 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 458.53ms
+csuccess [16:50:07] Build 43d812 finished in 461 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 567.24ms
+csuccess [16:50:07] Build 3441e1 finished in 568 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 473.29ms
+csuccess [16:50:16] Build 7e0ea2 finished in 474 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 585.90ms
+csuccess [16:50:16] Build 9e90da finished in 587 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 804.50ms
+csuccess [16:51:01] Build 47adf4 finished in 806 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 963.23ms
+csuccess [16:51:01] Build 73b35e finished in 965 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 816.57ms
+csuccess [16:51:06] Build 87d341 finished in 818 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 845.67ms
+csuccess [16:51:06] Build 58ef42 finished in 847 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+Reload due to frontmatter jsSeries/p&s.md
+Reload due to frontmatter jsSeries/p&s.md
+tip Apply theme @vuepress/theme-default ...
+tip Apply theme @vuepress/theme-default ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+✔ Client: Compiled successfully in 999.12ms
+csuccess [16:54:28] Build 083084 finished in 999 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 1.23s
+csuccess [16:54:28] Build 4c3d65 finished in 1233 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 822.68ms
+csuccess [16:54:29] Build 35cc32 finished in 823 ms! ( http://localhost:8080/ )
+✔ Client: Compiled successfully in 846.34ms
+csuccess [16:54:29] Build 673ea0 finished in 846 ms! ( http://localhost:8082/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 1.54s
+csuccess [17:14:26] Build 46c144 finished in 1539 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 1.68s
+csuccess [17:14:27] Build 6c8316 finished in 1676 ms! ( http://localhost:8080/ )
+ccℹ Compiling Client
+ℹ Compiling Client
+✔ Client: Compiled successfully in 4.10s
+csuccess [20:40:31] Build 8c330c finished in 4119 ms! ( http://localhost:8082/ )
+✔ Client: Compiled successfully in 4.26s
+csuccess [20:40:31] Build b0f218 finished in 4366 ms! ( http://localhost:8080/ )
