@@ -12,6 +12,8 @@ git branch -D <branch_name> \#删除本地仓库的某个分支</br>
 git push <repository_name> --delete <branch_name> \#删除远程的某个分支</br>
 git push <repository_name> :<branch_name> \#同样是删除远程分支的另一种方法</br>
 git push rm <repository_name> \#删除远程的某个仓库</br>
+git rm <path>： 同时从工作区和索引中删除文件。即本地的文件也被删除了。</br>
+git rm --cached  <path>： 从索引中删除文件。但是本地文件还存在， 只是不希望这个文件被版本控制。</br>
 
 ### 仓库相关命令
 git fetch <repository_name> \#同步远程服务器数据到本地
