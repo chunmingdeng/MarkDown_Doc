@@ -18,7 +18,12 @@ module.exports = {
           title: 'CSS',
           collapsable: true,
           children: ['/css/base',]
-        },   
+        },               
+        {
+          title: 'DataBase',
+          collapsable: true,
+          children: ['/DataBase/mongodb',]
+        },     
         {
           title: 'electron',
           collapsable: true,
@@ -43,6 +48,7 @@ module.exports = {
           children: [
             '/operatingSysten/base',
             '/operatingSysten/linux',
+            '/operatingSysten/mac',
           ]
         },
         {
@@ -92,12 +98,17 @@ module.exports = {
           title: 'terminal',
           collapsable: true,
           children: ['/terminal/macos',]
-        },                        
+        },                                
         {
-          title: 'DataBase',
+          title: 'd3',
           collapsable: true,
-          children: ['/DataBase/mongodb',]
-        },      
+          children: ['/d3/base',]
+        },                     
+        {
+          title: 'webpack',
+          collapsable: true,
+          children: ['/webpack/package',]
+        },    
         {
           title: '函数式编程',
           collapsable: true,
@@ -106,7 +117,7 @@ module.exports = {
         {
           title: '代码规范',
           collapsable: true,
-          children: ['/programStyle/eslint', '/programStyle/rules', '/programStyle/mock',]
+          children: ['/programStyle/eslint', '/programStyle/rules', '/programStyle/mock', '/programStyle/common']
         },                
         {
           title: '工具函数',

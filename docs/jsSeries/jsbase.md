@@ -42,6 +42,11 @@
 #### 幂等操作
 1. 如果一个事物不管是执行一次还是很多次，得到的结果都是相同的，那么该操作就是幂等；（http请求的get, head, delete, options, put, trace）
 
+#### 宏任务和微任务
+1. 宏任务：当前调用栈中执行的任务称为宏任务。（主代码快，定时器等等）。
+2. 微任务： 当前（此次事件循环中）宏任务执行完，在下一个宏任务开始之前需要执行的任务为微任务。（可以理解为回调事件，promise.then，proness.nextTick等等）。
+3. 宏任务中的事件放在callback queue中，由事件触发线程维护；微任务的事件放在微任务队列中，由js引擎线程维护。
+
 ## 2.排序算法
 > [link](https://www.cnblogs.com/onepixel/articles/7674659.html)
 
@@ -183,3 +188,37 @@ F.module = function() {
 - webpack的publicPath[link](urlhttps://www.cnblogs.com/SamWeb/p/8353367.html)
     - publicPath在webpack-dev-server的时候指定的是打进RAM的文件的位置
     - publicPath在npm run build的时候是所有的url文件的前缀
+
+## js对象的自有属性和继承属性
+```js
+// scheme1
+function Point(x, y) {
+    this.x = x
+    this.y = y
+    this.toString = function() {
+        console.log(`${this.x},${this.y}`)
+    }
+}
+// scheme2
+function Point1(x, y) {
+    this.x = x
+    this.y = y
+}
+Point1.prototype.toString = function() {console.log(`${this.x},${this.y}`)}
+
+// scheme3
+class Point2 {
+    x = 0
+    y = 0
+    constructor(x, y) {
+        this.x = x
+        this.y = y
+    }
+    toString() {
+        console.log(`${this.x},${this.y}`)
+    }
+}
+```
+> scheme1定义的toString方法可以通过`Object.getOwnPropertyDescriptors`查看
+> scheme2定义的toString方法无法通过该方法查看到
+> scheme3定义的toString方法是在`Point2.__proto__`上的且`enumerable: false`

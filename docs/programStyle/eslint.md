@@ -1,7 +1,8 @@
 # eslint篇
 ## 相关链接
-[中文文档](https://eslint.bootcss.com/docs/user-guide/getting-started)
+[中文文档](https://eslint.bootcss.com/docs/user-guide/getting-started)    
 [英文文档](https://eslint.org)
+[eslint原理分析](https://segmentfault.com/a/1190000037629653)
 ## 如何配置eslint
 ### vscode中的配置
 > command+shift+p => setting.json(用户设置user setting)
@@ -49,7 +50,7 @@
 ```js
 {
   "plugins": [
-    <pluginName>, // 直接省略eslint-plugin-
+    <pluginName>, // 直接省略eslint-plugin-，这里只是声明想要引用改组建提供的规则，但是具体使用哪些，怎么用还没有逐一配置
     eslint-plugin-<pluginName>, // 不省略的写法
   ]
 }
